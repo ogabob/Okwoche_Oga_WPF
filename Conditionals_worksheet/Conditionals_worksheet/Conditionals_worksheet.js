@@ -67,7 +67,7 @@ if (numberGrade<75 && numberGrade>=73)// C is between 73-75
 if (numberGrade<70 && numberGrade>=72)// D is between 70-72
 {console.log("You have a " +numberGrade +" which means you have earned a(n) D in the class!")}
 
-if (numberGrade<69 && numberGrade>=0)//F is between 0-69
+if (numberGrade=<69 && numberGrade>=0)//F is between 0-69
 {console.log("You have a " +numberGrade +" which means you have earned a(n) F in the class!")}
 
 
