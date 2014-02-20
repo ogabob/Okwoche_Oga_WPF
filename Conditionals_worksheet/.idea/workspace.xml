@@ -35,7 +35,7 @@
       <file leaf-file-name="Conditionals_worksheet.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/Conditionals_worksheet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="69" selection-start="2073" selection-end="2073" vertical-scroll-proportion="0.61864406" vertical-offset="372" max-vertical-offset="1575">
+            <state line="62" column="21" selection-start="2215" selection-end="2215" vertical-scroll-proportion="1.3730929" vertical-offset="45" max-vertical-offset="1890">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -59,8 +59,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="66" />
+    <option name="x" value="38" />
+    <option name="y" value="22" />
     <option name="width" value="1126" />
     <option name="height" value="818" />
   </component>
@@ -181,7 +181,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="66" width="1126" height="818" extended-state="0" />
+    <frame x="38" y="22" width="1126" height="818" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -229,7 +229,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_worksheet/Conditionals_worksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="69" selection-start="2073" selection-end="2073" vertical-scroll-proportion="0.61864406" vertical-offset="372" max-vertical-offset="1575">
+        <state line="62" column="21" selection-start="2215" selection-end="2215" vertical-scroll-proportion="1.3730929" vertical-offset="45" max-vertical-offset="1890">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
