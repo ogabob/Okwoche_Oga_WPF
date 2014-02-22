@@ -23,7 +23,7 @@ var totalHotelCost=  (numberOfDays-1)*numberOfPeople*hotelCostPerNight/2; //This
 
 
 
-var totalHotelAndFoodCost= totalCostFood+totalHotelCost;
+var totalHotelAndFoodCost= totalCostFood+totalHotelCost;//This is the total cost on food and  hotel for the stay period.
 
 
 var threshold1=budget/2// this is the maximun safe zone to spend
