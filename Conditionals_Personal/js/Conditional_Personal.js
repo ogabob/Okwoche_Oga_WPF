@@ -13,7 +13,7 @@ var budget=prompt("Please enter the budget for the vacation in dollars");
 
 var foodCostPerDay= 30
 var hotelCostPerNight= 20;
-alert("2 people per room");
+alert("There will be 2 people per room");//I made this more descriptive
 alert("The cost of food per day is $30")
 alert("The cost of a room is $20 per night")
 var totalCostFood =   numberOfDays *numberOfPeople*foodCostPerDay;
