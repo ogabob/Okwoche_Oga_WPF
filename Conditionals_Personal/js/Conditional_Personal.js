@@ -1,15 +1,16 @@
 /**
+ /**
  * Created by Oga Okwoche on 2/20/14.
  */
 
 
 //This is a calculation that will decide where what tours my family wil visit when they visit in the summer.
 
-var numberOfPeople= prompt("Please enter the number of family members coming to visit.");
+var numberOfPeople= prompt("Please enter the number of family members coming to visit.");// Expecting quite a numbber of people this summer
 
-var numberOfDays=prompt("Please enter the number of days family members will be staying");
+var numberOfDays=prompt("Please enter the number of days family members will be staying");//this should be a 7-10 days
 
-var budget=prompt("Please enter the budget for the vacation in dollars");
+var budget=prompt("Please enter the budget for the vacation in dollars");//I hope some family members will contribute
 
 var foodCostPerDay= 30;// this is the budgeted amount to spend on food per day.
 var hotelCostPerNight= 20;// This is the budgeted amount for hotel per night
