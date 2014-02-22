@@ -33,7 +33,7 @@ var threshold2= budget/3//this is the safest zone to spend
 
 
 if (totalHotelAndFoodCost>threshold1){// this condition applies if the total cost exceeds the maximum safe zone
-    console.log("We will go sight seeing in Baltimore City!");
+    console.log("We will go sight seeing in Baltimore City!");//This is the print result if the first condition is true
 }else if (totalHotelAndFoodCost<threshold1 && totalHotelAndFoodCost>=threshold2){
     console.log("We can go to do some shopping at Towson Mall");
 }else(console.log("We will go visit New York and do some shopping!"));
