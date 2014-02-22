@@ -11,11 +11,11 @@ var numberOfDays=prompt("Please enter the number of days family members will be 
 
 var budget=prompt("Please enter the budget for the vacation in dollars");
 
-var foodCostPerDay= 30// this is the budgeted amount to spend on food per day.
+var foodCostPerDay= 30;// this is the budgeted amount to spend on food per day.
 var hotelCostPerNight= 20;// This is the budgeted amount for hotel per night
 alert("There will be 2 people per room");//I made this more descriptive
-alert("The cost of food per day is $30")// this is the budgeted amount to spend on food per day.
-alert("The cost of a room is $20 per night")// This is the budgeted amount for hotel per night
+alert("The cost of food per day is $30");// this is the budgeted amount to spend on food per day.
+alert("The cost of a room is $20 per night");// This is the budgeted amount for hotel per night
 var totalCostFood =   numberOfDays *numberOfPeople*foodCostPerDay;//This calculates the total cost of food for the period of time
 
 
@@ -26,9 +26,9 @@ var totalHotelCost=  (numberOfDays-1)*numberOfPeople*hotelCostPerNight/2; //This
 var totalHotelAndFoodCost= totalCostFood+totalHotelCost;//This is the total cost on food and  hotel for the stay period.
 
 
-var threshold1=budget/2// this is the maximun safe zone to spend
+var threshold1=budget/2;// this is the maximun safe zone to spend
 
-var threshold2= budget/3//this is the safest zone to spend
+var threshold2= budget/3;//this is the safest zone to spend
 
 
 
