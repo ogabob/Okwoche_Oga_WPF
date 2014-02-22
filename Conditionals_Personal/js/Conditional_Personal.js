@@ -11,13 +11,13 @@ var numberOfDays=prompt("Please enter the number of days family members will be 
 
 var budget=prompt("Please enter the budget for the vacation in dollars");
 
-var foodCostPerDay= 30
-var hotelCostPerNight= 20;
+var foodCostPerDay= 30// this is the budgeted amount to spend on food per day.
+var hotelCostPerNight= 20;// This is the budgeted amount for hotel per night
 alert("There will be 2 people per room");//I made this more descriptive
-alert("The cost of food per day is $30")
-alert("The cost of a room is $20 per night")
-var totalCostFood =   numberOfDays *numberOfPeople*foodCostPerDay;
- console.log(totalCostFood)//delete this line
+alert("The cost of food per day is $30")// this is the budgeted amount to spend on food per day.
+alert("The cost of a room is $20 per night")// This is the budgeted amount for hotel per night
+var totalCostFood =   numberOfDays *numberOfPeople*foodCostPerDay;//This calculates the total cost of food
+
 
 var totalHotelCost=  (numberOfDays-1)*numberOfPeople*hotelCostPerNight/2;
 console.log(totalHotelCost)//delete this line..
