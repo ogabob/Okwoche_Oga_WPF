@@ -29,7 +29,7 @@ var totalHotelAndFoodCost= totalCostFood+totalHotelCost;
 var threshold1=budget/2// this is the maximun safe zone to spend
 
 var threshold2= budget/3//this is the safest zone to spend
-console.log(threshold2)//delete this line
+
 
 
 if (totalHotelAndFoodCost>threshold1){
