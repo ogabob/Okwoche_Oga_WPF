@@ -5,19 +5,20 @@
 
 
 
-var hypotenuse=prompt("Please enter the length of the longest side.It is called the Hypotenuse");
+var hypotenuse=prompt("Please enter the length of the longest side in CM.It is called the Hypotenuse");//The length is in Centimeter
 
-var xLength=prompt("Please enter the length in CM of one side");
+var xLength=prompt("Please enter the length in CM of one side");//The length is in Centimeter
 
-var yLength= prompt("Please enter the length of the other side in CM");
+var yLength= prompt("Please enter the length of the other side in CM");//The length is in centimeter
 
-var z= xLength*yLength
+var z= xLength*yLength // The unit is in Centimeter Square
 
-var squareHypotenuse= hypotenuse*hypotenuse
+var squareHypotenuse= hypotenuse*hypotenuse//The unit is in centimeter Square
 
 if (z===squareHypotenuse){
-    console.log("This is a right angled triangle")
-}else if (z===squareHypotenuse && xLength===yLength){
+    console.log("This is a right angled triangle")// This is the print result if only pythagoras theorem is true
+
+}else if (z===squareHypotenuse && xLength===yLength){//This is true if the first condition is true and both sides are equal
     console.log("This is a right angle and Isosceles triangle")
 }else(console.log("This is a scalene triangle"))
 
