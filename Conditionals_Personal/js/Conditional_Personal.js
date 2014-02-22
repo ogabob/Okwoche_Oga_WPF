@@ -29,7 +29,7 @@ console.log(totalHotelAndFoodCost)//delete this line
 var threshold1=budget/2
 console.log(threshold1)//delete this line
 var threshold2= budget/3
-console.log(threshold2)//delete this line
+console.log(threshold2)
 
 
 if (totalHotelAndFoodCost>threshold1){
