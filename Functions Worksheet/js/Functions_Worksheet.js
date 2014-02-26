@@ -27,11 +27,11 @@ console.log( "The circumference of the circle is  "+ result)//this is the print 
 
 //Function to calculate how many bee stings.
 
-var totalBeeStings= beeStings(100);
+var totalBeeStings= beeStings(100);//this is the argument that gives the weight of the animal in pounds
 
-function beeStings(weight){
+function beeStings(weight){// this is the parameter that that stores the weight of the animal
     var CalcBeeStings=8.6*weight;
     return CalcBeeStings;
 }
 
-console.log("It takes "+ totalBeeStings+ "  bee stings to kill this animal");
+console.log("It takes "+ totalBeeStings+ " bee stings to kill this animal");
