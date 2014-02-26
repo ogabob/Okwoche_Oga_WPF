@@ -13,8 +13,8 @@
 var result= calcCircumference (10);//this is the function argument with the radius of 10
 
 function calcCircumference(radius){// this tis the radius parameter that stores tha value of 10
-    var circumference=2*3.14*radius;
-    return circumference;
+    var circumference=2*3.14*radius;//calculation to calculate the circumference.3.14 is the value of Pi
+    return circumference;//the return function pushes the result outside the function to the var result.
 
 }
 console.log( "The circumference of the circle is  "+ result)
