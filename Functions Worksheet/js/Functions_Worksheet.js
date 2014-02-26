@@ -30,7 +30,7 @@ console.log( "The circumference of the circle is  "+ result)//this is the print 
 var totalBeeStings= beeStings(100);//this is the argument that gives the weight of the animal in pounds
 
 function beeStings(weight){// this is the parameter that that stores the weight of the animal
-    var CalcBeeStings=8.6*weight;
+    var CalcBeeStings=8.666666667*weight;
     return CalcBeeStings;
 }
 
