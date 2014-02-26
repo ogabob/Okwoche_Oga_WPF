@@ -17,7 +17,7 @@ function calcCircumference(radius){// this tis the radius parameter that stores 
     return circumference;//the return function pushes the result outside the function to the var result.
 
 }
-console.log( "The circumference of the circle is  "+ result)
+console.log( "The circumference of the circle is  "+ result)//this is the print result for the circumference
 
 
 
