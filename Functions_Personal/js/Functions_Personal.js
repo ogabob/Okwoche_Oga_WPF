@@ -6,11 +6,11 @@
 
 // I will be deciding is I will be taking an auto loan by deciding the APR. APR stands for the Annual Percentage Rate
 
-var n= prompt("Please enter the number of payments you will be making in 1 year")
+var n= prompt("Please enter the number of payments you will be making in 1 year")//This could range from 1-12
 
-var tf=prompt("Please enter the total financing charges in Dollars")
+var tf=prompt("Please enter the total financing charges in Dollars")// This is the dollar amount of financial charges.
 
-var ab=prompt("Please enter the amount borrowed")
+var ab=prompt("Please enter the amount borrowed")//This is the amount borrowed from the bank.
 
 var T=prompt("Please enter the number of scheduled payments for the life of the loan")
 
