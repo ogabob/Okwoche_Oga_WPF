@@ -10,10 +10,10 @@ var di=prompt("Please enter the diagonal size of the screen in inches ");//This 
 var realPpi=function(dp,di){//This is the anonymous function
     var ppi=dp/di;//this is the formula for calculation the pixel per inch
     var s1=("You can get this phone.It has "+ppi+ "pixels");//this is a statement if a specific condition is true
-    var s2=("I would not recommend this phone.It has "+ ppi+" pixels. It has a low resolution");
+    var s2=("I would not recommend this phone.It has "+ ppi+" pixels. It has a low resolution");//the second statement is true if a specific condition is true
 
-    if (ppi>261){
-        return s1;
+    if (ppi>261){// this is the condition that must be satisfied for the statement to be either true or false
+        return s1;//This statement is true only if the condition is true
     }else {
         return s2;
     }
