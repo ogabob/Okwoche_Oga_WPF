@@ -14,9 +14,9 @@ var ab=prompt("Please enter the amount borrowed")//This is the amount borrowed f
 
 var T=prompt("Please enter the number of scheduled payments for the life of the loan")// This is the total number of payments for the life of the loan
 
-var finalStatement=CalcApr(n,tf,ab,T);
+var finalStatement=CalcApr(n,tf,ab,T);// These are the arguments with the variable n,tf,ab,t
 
-function CalcApr(n,tf,ab,T){
+function CalcApr(n,tf,ab,T){//This is the parameter of the function where the arguments are stored.
    var apr= (2* n * tf )/( ab *T+1)
    var statement1=("Your APR is "+apr+ ". It is not recommended that you take this loan")
    var statement2=("Your APR is "+apr+ ". You can take the loan if you have a down payment")
