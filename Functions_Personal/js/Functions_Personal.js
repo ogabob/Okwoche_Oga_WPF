@@ -17,8 +17,8 @@ var T=prompt("Please enter the number of scheduled payments for the life of the 
 var finalStatement=CalcApr(n,tf,ab,T);// These are the arguments with the variable n,tf,ab,t
 
 function CalcApr(n,tf,ab,T){//This is the parameter of the function where the arguments are stored.
-   var apr= (2* n * tf )/( ab *T+1)
-   var statement1=("Your APR is "+apr+ ". It is not recommended that you take this loan")
+   var apr= (2* n * tf )/( ab *T+1)// This is  the basic formula for calculating the APR.
+   var statement1=("Your APR is "+apr+ ". It is not recommended that you take this loan")//This is a variable statement if certain conditions are true
    var statement2=("Your APR is "+apr+ ". You can take the loan if you have a down payment")
    var statement3=("Your APR is "+apr+ ". You can go ahead and take the loan. No down payment is necessary")
     if (apr>5){
