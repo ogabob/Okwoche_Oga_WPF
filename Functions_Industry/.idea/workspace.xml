@@ -35,7 +35,7 @@
       <file leaf-file-name="Functions_Industry.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Functions_Industry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="68" selection-start="556" selection-end="556" vertical-scroll-proportion="0.24965326" vertical-offset="0" max-vertical-offset="721">
+            <state line="25" column="14" selection-start="887" selection-end="887" vertical-scroll-proportion="0.56171983" vertical-offset="0" max-vertical-offset="721">
               <folding />
             </state>
           </provider>
@@ -57,8 +57,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="146" />
-    <option name="y" value="68" />
+    <option name="x" value="282" />
+    <option name="y" value="41" />
     <option name="width" value="1126" />
     <option name="height" value="818" />
   </component>
@@ -178,7 +178,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="146" y="68" width="1126" height="818" extended-state="0" />
+    <frame x="282" y="41" width="1126" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -240,7 +240,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Functions_Industry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="68" selection-start="556" selection-end="556" vertical-scroll-proportion="0.24965326" vertical-offset="0" max-vertical-offset="721">
+        <state line="25" column="14" selection-start="887" selection-end="887" vertical-scroll-proportion="0.56171983" vertical-offset="0" max-vertical-offset="721">
           <folding />
         </state>
       </provider>

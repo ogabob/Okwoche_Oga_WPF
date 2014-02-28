@@ -2,9 +2,9 @@
 
 //We will be deciding which phone we will get based on the pixel density of the phone.
 
-alert("We will be deciding the which phone we will get based on the pixel density of the phone screen")
+alert("We will be deciding the which phone we will use to view our mobile website based on on the pixel density of the phone screen")//alert showing what the user will be doing to find out which phone the customer should use to view a website.
 
-var dp=prompt("Please enter the diagonal resolution in pixels ");
+var dp=prompt("Please enter the diagonal resolution in pixels ");//This is the diagonal resolution in pictures
 var di=prompt("Please enter the diagonal size of the screen in inches ");
 
 var realPpi=function(dp,di){
